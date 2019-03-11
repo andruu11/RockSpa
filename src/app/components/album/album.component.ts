@@ -4,6 +4,7 @@ import { AlbumsService } from '../../services/albums.service';
 import { Albums } from '../../model/albums';
 import { DomSanitizer } from '@angular/platform-browser';
 
+
 @Component({
   selector: 'app-album',
   templateUrl: './album.component.html',
