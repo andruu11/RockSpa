@@ -1,0 +1,15 @@
+<h4 class="my-3"> Buscando: <small>{{ termino }}</small></h4>
+<div class="row">
+    <div class="col-md-12 my-5" *ngIf="albums.length == 0">
+        <div class="alert alert-info" role="alert">
+            <h4 class="alert-heading">No se pudo encontrar</h4>
+            <p>Lo sentimos no pudimos encontrar un resultado con el termino <b>" {{ termino }} "</b></p>
+            <hr>
+            <p class="mb-0">Intente buscar otro album.</p>
+        </div>
+    </div>
+</div>
+<div class="lista-cards">
+    <!--*ngFor="let album of albums; let i = index"-->
+    <app-album-tarjeta [index]="album.idx" [album]="album" *ngFor="let album of albums; let i = index"></app-album-tarjeta>
+</div>

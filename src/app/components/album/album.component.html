@@ -1,0 +1,27 @@
+<div class="lista-cards">
+    <div class="card card-5">
+        <img [src]="album.portada" [alt]="album.nombreDisco" class="portada-disco my-4">
+        <div class="title-album"><b>{{ album.nombreDisco }}</b></div>
+        <div class="band">{{ album.banda }}</div>
+        <hr class="line  my-3">
+        <div class="actions mx-3">
+            <a><i class="material-icons md-30">thumb_up_alt</i><span class="raits">10K</span></a>
+            <a><i class="material-icons md-30">thumb_up_alt</i><span class="raits">10K</span></a>
+            <a><i class="material-icons md-30">thumb_down_alt</i><span class="raits">150</span></a>
+        </div>
+    </div>
+    <div class="card-alt card-5">
+
+        <h4>{{ album.nombreDisco }}</h4>
+        <hr class="line-t  my-3">
+        <p><b>Fecha de Lanzamiento: </b> {{ album.fechaLanzamiento | date :'fullDate'}}</p>
+        <p><b>Banda: </b> {{ album.banda }}</p>
+        <p><b>Genero: </b> {{ album.genero }}</p>
+        <p><b>Canciones destacadas:</b></p>
+        <ul *ngFor="let item of album.cancionesDestacadas">
+            <li>{{ item }}</li>
+        </ul>
+        <iframe scrolling="no" frameborder="0" allowTransparency="true" [src]="album.urlAlbum | safe" width="
+  100%" height="350"></iframe>
+    </div>
+</div>

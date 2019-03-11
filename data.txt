@@ -1,0 +1,79 @@
+[
+    {
+        nombreDisco: "Kill 'Em All",
+        banda: "Metallica",
+        fechaLanzamiento: "25-08-1983",
+        genero: "Thrash metal",
+        portada: "assets/img/1met.jpg"
+        cancionesDestacadas : ["Hit the lights","Motorbreath","The Four Hoursemen"]
+
+    },
+    {
+        nombreDisco: "Hardwired... to Self-Destruct",
+        banda: "Metallica",
+        fechaLanzamiento: "18-11-2016",
+        genero: "Thrash metal",
+        portada: "assets/img/2met.jpg"
+        cancionesDestacadas : ["Hardwired","Am I Savage?","Dream no more"]
+
+    },
+
+º   {
+        nombreDisco: "Master of Puppets",
+        banda: "Metallica",
+        fechaLanzamiento: "3-04-1986",
+        genero: "Thrash metal",
+        portada: "assets/img/3met.jpg"
+        cancionesDestacadas : ["Master of Puppets","Welcome Home","Damage, Inc"]
+
+    },
+
+    {
+        nombreDisco: "Get a trip",
+        banda: "Aerosmith",
+        fechaLanzamiento: "20-04-1993",
+        genero: "Hard rock",
+        portada: "assets/img/1ae.jpg"
+        cancionesDestacadas : ["Amazing","Crazy","Criying"]
+
+    },
+        {
+        nombreDisco: "Nine Lives",
+        banda: "Aerosmith",
+        fechaLanzamiento: "12-03-1997",
+        genero: "Hard rock",
+        portada: "assets/img/2ae.jpg"
+        cancionesDestacadas : ["Hole in my Soul","Pink","Nine Lives"]
+
+    },
+        {
+        nombreDisco: "Just Push Play",
+        banda: "Aerosmith",
+        fechaLanzamiento: "5-03-2001",
+        genero: "Hard rock",
+        portada: "assets/img/3ae.jpg"
+        cancionesDestacadas : ["Jaded","Fly Away From Here","Outta Your Head"]
+
+    },
+
+        {
+        nombreDisco: "Sticky Fingers",
+        banda: "Rolling Stones",
+        fechaLanzamiento: "23-04-1971",
+        genero: "Rock and roll",
+        portada: "assets/img/1roll.jpg"
+        cancionesDestacadas : ["Wild Horses","Dead Flowers","Brown Sugar"]
+
+    },
+
+        {
+        nombreDisco: "Nevermind",
+        banda: "Nirvana",
+        fechaLanzamiento: "24-10-1991",
+        genero: "Grunge",
+        portada: "assets/img/1ni.jpg"
+        cancionesDestacadas : ["Smell Like Teens Spirit","Lithium","Come as you are"]
+
+    },
+
+]

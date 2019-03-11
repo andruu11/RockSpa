@@ -1,0 +1,63 @@
+.card {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 400px;
+    margin: 1rem;
+    position: relative;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.card:hover {
+    transform: scale(.90) translateY(-10px);
+}
+
+.card-5 {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.portada-disco {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.line {
+    height: .03rem;
+    width: 90%;
+    background: #BDBDBD;
+}
+
+.actions {
+    display: block;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: space-around;
+}
+
+.material-icons.md-30 {
+    font-size: 28px;
+    color: #424242;
+    cursor: pointer;
+}
+
+.material-icons.md-30:hover,
+.material-icons.md-30:active {
+    color: #2692b7;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.raits,
+.raits:hover {
+    display: block;
+    font-size: .8rem;
+    color: #424242;
+    text-decoration: none;
+}

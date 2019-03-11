@@ -1,0 +1,11 @@
+<div class="card card-5">
+    <img [src]="album.portada" [alt]="album.nombreDisco" class="portada-disco my-4">
+    <div class="title-album"><b>{{ album.nombreDisco }}</b></div>
+    <div class="band">{{ album.banda }}</div>
+    <hr class="line  my-3">
+    <div class="actions mx-3">
+        <a><i class="material-icons md-30">thumb_up_alt</i><span class="raits">10K</span></a>
+        <a><i class="material-icons md-30">thumb_down_alt</i><span class="raits">150</span></a>
+        <a [routerLink]="['/album',i]"><i class="material-icons md-30">sort</i></a>
+    </div>
+</div>
